@@ -4,6 +4,15 @@ API desenvolvida com Spring Boot para gerenciar listas de compras e itens.
 
 ---
 
+## 👨‍💻 Autor
+
+Projeto acadêmico - ADS FIAP
+
+- Nome: Joao Victor Luiz rm:565139
+- Nome: Pedro Vaz rm:566551
+
+---
+
 ## 🚀 Tecnologias
 
 - Java
@@ -14,48 +23,35 @@ API desenvolvida com Spring Boot para gerenciar listas de compras e itens.
 
 ---
 
-## ▶️ Como rodar
-
-```bash
-mvn spring-boot:run
-```
-
----
 
 ## 🌐 Endpoints
 
+### Listas
+
 - GET /listas  
+- GET /listas/{id}  
 - POST /listas  
 - PUT /listas/{id}  
 - DELETE /listas/{id}  
 
+### Itens
+
 - GET /itens  
+- GET /itens/{id}  
 - POST /itens  
+- PUT /itens/{id}  
+- DELETE /itens/{id}  
+
+### Outros
+
+- GET /health
 
 ---
 
-## 🧪 H2 Console
-
-Acesse:
-
-```
-http://localhost:8080/h2-console
-```
-
----
 
 ## 💻 Front-end
 
 O front que consome essa API está disponível em:
 
 👉 https://front-lista-de-compras.vercel.app
-
----
-
-## 👨‍💻 Autor
-
-Projeto acadêmico - ADS FIAP
-
-Nome:Joao Victor Luiz rm:565139
-Nome Pedro Vaz rm:566551
 
