@@ -55,3 +55,7 @@ O front que consome essa API está disponível em:
 ## 👨‍💻 Autor
 
 Projeto acadêmico - ADS FIAP
+
+Nome:Joao Victor Luiz rm:565139
+Nome Pedro Vaz rm:566551
+
